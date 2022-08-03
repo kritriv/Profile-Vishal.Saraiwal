@@ -505,6 +505,32 @@ h3.my-profession {
     margin-top: 30px;
 }
 
+.about .about-content .certificate {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+.btn-view {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 15px;
+    color: white;
+    justify-content: space-between;
+    right: 10%;
+    border-radius: 20px;
+    display: inline-flex;
+    margin-left: 80%;
+    margin-top: -100%;
+    border: none;
+    background: var(--skin-color);
+    transition: all 0.3s ease;
+}
+
+.txt-cert {
+    margin-top: -40px;
+}
+
 .about .about-content h3.title {
     font-size: 24px;
     margin-bottom: 30px;
@@ -847,7 +873,8 @@ h3.my-profession {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .portfolio .portfolio-item{
+
+    .portfolio .portfolio-item {
         /* align-items: center; */
         margin-left: 20%;
     }
@@ -865,7 +892,8 @@ h3.my-profession {
     .about .about-content .experience {
         margin-left: -30px;
     }
-    .portfolio .portfolio-item{
+
+    .portfolio .portfolio-item {
         /* align-items: center; */
         margin-left: 5%;
     }
