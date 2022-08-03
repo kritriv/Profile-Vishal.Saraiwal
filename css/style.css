@@ -674,10 +674,12 @@ h3.my-profession {
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    max-width: fit-content;
+    margin-right: 20px;
 }
 
 .portfolio .portfolio-item-inner .portfolio-image img {
-    width: 100%;
+    /* width: 100%; */
     display: block;
 }
 
@@ -845,6 +847,10 @@ h3.my-profession {
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .portfolio .portfolio-item{
+        /* align-items: center; */
+        margin-left: 20%;
+    }
 
 }
 
@@ -858,6 +864,10 @@ h3.my-profession {
     .about .about-content .education,
     .about .about-content .experience {
         margin-left: -30px;
+    }
+    .portfolio .portfolio-item{
+        /* align-items: center; */
+        margin-left: 5%;
     }
 
 }
