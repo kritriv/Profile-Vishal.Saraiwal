@@ -453,6 +453,7 @@ h3.my-profession {
 
 .about .about-content .personal-info .buttons .btn {
     margin-top: 10px;
+    margin-left: -260px;
 }
 
 .about .about-content .skills {
@@ -918,7 +919,7 @@ h3.my-profession {
         margin-left: 8px;
     }
     .about .about-content .personal-info .buttons .btn {
-        margin-left: -160px;
+        margin-left: -10px;
     }
     .about .about-content .experience {
         margin-top: 30px;
