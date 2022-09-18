@@ -1,19 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Dancing+Script:wght@400;700&family=Lato:wght@300;400;700&family=Lobster&family=Poppins:wght@200;300;500;600;700&display=swap');
 
 :root {
-    --bg-black-900: #f2f2fc;
+    /* --bg-black-900: #f2f2fc;
     --bg-black-100: #fdf9ff;
     --bg-black-50: #e8dfec;
     --text-black-900: #303e4d;
-    --text-black-700: #504e70;
+    --text-black-700: #504e70; */
+
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --text-black-900: #060b1b;
+    --text-black-700: #151a33;
 }
 
 body.dark {
     /* --bg-black-900:#151515; */
-    --bg-black-900: #000000;
     /* --bg-black-100:#222222; */
+
+
+    /* --bg-black-900: #000000;
     --bg-black-100: #141313;
     --bg-black-50: #393939;
+    --text-black-900: #ffffff;
+    --text-black-700: #e9e9e9; */
+
+    --bg-black-900: #060b1b;
+    --bg-black-100: #151a33;
+    --bg-black-50: #28365f;
     --text-black-900: #ffffff;
     --text-black-700: #e9e9e9;
 }
